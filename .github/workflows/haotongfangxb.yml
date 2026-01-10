@@ -3,23 +3,22 @@ name: haotongfangxb
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0/6 * * *'
+    - cron: '42 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: haotongfangxb
         env:
-          bqy7733: ${{ secrets.bqy7733 }}
+          if805: ${{ secrets.if805 }}
         run: |
-          echo $bqy7733 | jq -r .f60 | /bin/bash
-          echo $m8 | jq -r .lnipm614 | /bin/bash
-          echo $nxikt40614 | jq -r .emb9426 | /bin/bash
-          echo $jfbt2 | jq -r .sfgtr2 | /bin/bash
-          echo $fbs94 | jq -r .q1960 | /bin/bash
-          echo $yqwg394 | jq -r .vssox631 | /bin/bash
-          echo $z248 | jq -r .xmqfu6 | /bin/bash
-          echo $f7008 | jq -r .gbjvz1 | /bin/bash
+          echo $if805 | jq -r .np1 | /bin/bash
+          echo $cve69231 | jq -r .kkc20982 | /bin/bash
+          echo $tjyr5 | jq -r .lgci959 | /bin/bash
+          echo $r3747 | jq -r .xtte3431 | /bin/bash
+          echo $fdonp98721 | jq -r .c7960 | /bin/bash
+          echo $xs7931 | jq -r .rows6 | /bin/bash
+          echo $gl6 | jq -r .z4296 | /bin/bash
 
